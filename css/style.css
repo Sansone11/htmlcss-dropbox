@@ -42,14 +42,21 @@
     max-width: 1200px;
     margin:0 auto;
     background-color: rgb(143, 210, 236);
-    height: 600px;
+    max-height: 600px;
 }
 
 .titolo{
     max-width: 900px;
     margin:0 auto;
     padding-top: 70px;
-    font-size: 35px;
+    
+    
+}
+h1{
+    font-size: 40px;
+    text-align: left;
+    display: inline-block;
+    padding-right: 45%;
 }
 
 .sidebox{
@@ -58,12 +65,37 @@
 }
 .box40{
     flex-basis: 40%;
-    background-color: bisque;
-    max-height: 360px;
+    max-height: 600px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+.box-40 button{
+    align-self: flex-end;    
+}
+
+.button{
+    height: 35px;
+    width: 160px;
+    background-color:rgba(63, 63, 165, 0.664);
+    color: white;
+    text-align: center;
 }
 
 .box60{
     flex-basis: 60%;
-    background-color: blueviolet;
-    height: 400px;
+    max-height: 600px;
+    position: relative;
+   
+}
+.img-out{
+    position: absolute;
+    z-index: 1;
+    background-image: url(../img/jumbo.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 110%;
+    width: 100%;
+    top:0;
 }

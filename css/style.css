@@ -122,9 +122,22 @@ h1{
 
 .main-card{
     max-width: 900px;
+    min-height: 400px;
+    margin:0 auto;
+    margin-top: 100px;
 }
 
 .card-container{
     max-width: 800px;
     margin:o auto;
+}
+.title-card p{
+    display: inline-block;
+}
+#radio{
+    margin-left: 30px;
+}
+.title-card h2{
+    margin-bottom: 40px;
+    text-align: left;
 }

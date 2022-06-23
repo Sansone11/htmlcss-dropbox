@@ -51,3 +51,19 @@
     padding-top: 70px;
     font-size: 35px;
 }
+
+.sidebox{
+    display: flex;
+    flex-direction: row;
+}
+.box40{
+    flex-basis: 40%;
+    background-color: bisque;
+    max-height: 360px;
+}
+
+.box60{
+    flex-basis: 60%;
+    background-color: blueviolet;
+    height: 400px;
+}

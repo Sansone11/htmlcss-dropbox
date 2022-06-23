@@ -1,0 +1,53 @@
+/* regole di reset */
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+*{
+    border: 1px solid red;
+    
+}
+.nav-bar{
+    height: 70px;
+    max-width: 1200px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: fixed;
+}
+
+.menu-list li{
+    display: inline;
+    flex: gap;
+    
+}
+
+.drop{
+    margin-right: 430px;
+    }
+
+.start{
+    max-height: 35px;
+    max-width: 80px;
+    background-color: rgba(63, 63, 165, 0.664);
+    color: white;
+}
+/* hero */
+.content-hero{
+    max-width: 1200px;
+    margin:0 auto;
+    background-color: rgb(143, 210, 236);
+    height: 600px;
+}
+
+.titolo{
+    max-width: 900px;
+    margin:0 auto;
+    padding-top: 70px;
+    font-size: 35px;
+}

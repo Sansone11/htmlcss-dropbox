@@ -23,7 +23,7 @@
 
 .menu-list li{
     display: inline;
-    flex: gap;
+    
     
 }
 
@@ -129,10 +129,17 @@ h1{
 
 .card-container{
     max-width: 800px;
-    margin:o auto;
+    margin:0 auto;
+   
 }
 .title-card p{
     display: inline-block;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+
+.title-card h2{
+    padding-left: 20px;
 }
 #radio{
     margin-left: 30px;
@@ -140,4 +147,35 @@ h1{
 .title-card h2{
     margin-bottom: 40px;
     text-align: left;
+}
+.card.flex{
+    max-width: calc(100%/3);
+    min-height: 300px;
+    padding-left: 20px;
+    padding-right:20px;
+}
+
+.card-special{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+
+.card.flex li{
+    display: inline-block;
+    text-decoration: none;
+    padding-bottom: 15px;
+}
+
+.button{
+    height: 30px;
+    min-width: 160px;
+    background-color: rgba(63, 63, 165, 0.664);
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
 }

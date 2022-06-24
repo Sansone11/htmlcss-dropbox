@@ -82,6 +82,8 @@ h1{
     background-color:rgba(63, 63, 165, 0.664);
     color: white;
     text-align: center;
+    display: inline-block;
+
 }
 
 .box-60{
@@ -125,46 +127,51 @@ h1{
     min-height: 400px;
     margin:0 auto;
     margin-top: 100px;
+    display: flex;
 }
 
 .card-container{
-    max-width: 800px;
     margin:0 auto;
+    
    
 }
+/* 
 .title-card p{
     display: inline-block;
     margin-bottom: 40px;
     padding-left: 20px;
 }
 
-.title-card h2{
+/* .title-card h2{ 
     padding-left: 20px;
-}
+    margin-bottom: 40px;
+    text-align: left;
+}*/
 #radio{
     margin-left: 30px;
 }
-.title-card h2{
-    margin-bottom: 40px;
-    text-align: left;
-}
+
 .card.flex{
-    max-width: calc(100%/3);
-    min-height: 300px;
-    padding-left: 20px;
-    padding-right:20px;
+    flex-grow: 1;
+    flex-basis: 0;
+    gap: 40px;
+    margin-bottom: 40px;
+        
 }
 
 .card-special{
     display: flex;
     flex-direction: row;
-    align-items:center;
 }
 
 .card.flex li{
     display: inline-block;
     text-decoration: none;
     padding-bottom: 15px;
+}
+
+.card-style{
+    padding: 40px,20px;
 }
 
 .button{
@@ -178,4 +185,77 @@ h1{
     margin-bottom: 20px;
     margin-top: 20px;
     
+}
+.user{
+    text-align: center;
+    min-height:35px;
+    padding-top: 5px;
+}
+
+.card-bases{
+
+    flex-basis:calc(100%/1);
+    
+}
+
+.card-bases h2{
+    display: inline-block;
+    padding-left: 20px;
+    padding-bottom: 40px;
+
+    
+}
+.card-bases h4{
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+.card-bases > p{
+    padding-left: 20px;
+    
+}
+#prime{
+    margin-bottom: 30px;
+}
+
+
+  /*section 3  */
+  .main-conteiner{
+    width: 1200px;
+    margin:0 auto;
+    
+  }
+.section-conteiner{
+    width: 900px;
+    margin:0 auto;
+}
+
+.sidebox-two{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.size60{
+    flex-basis: 60%;
+    min-height:300px;
+    background-image: url(../img/partner.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    
+}
+.size40{
+    flex-basis: 40%;
+    min-height: 300px;
+    padding-top: 50px;
+    text-align: left;
+}
+.size40>h3,p{
+    margin-bottom: 30px;
+    display: inline-block;
+    padding-left: 20px;
+}
+hr{
+    display: inline-block;
+    max-width: 200px;
+    color: lightgrey;
 }

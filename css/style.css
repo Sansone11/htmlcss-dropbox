@@ -274,3 +274,78 @@ hr{
 .buisness{
     width: calc(100%*2/6);
 }
+.team-user{
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.user{
+    min-height: 250px;
+
+}
+/* section 5 */
+.flexer{
+    display: flex;
+    flex-direction: row;
+    min-height: 400px;
+}
+
+.box{
+    width:calc(100%/3);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.son{
+    min-height: 200px;
+    width: calc(100%*2/4);
+    
+
+}
+.taker{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    background-color:rgba(157, 205, 214, 0.664) ;
+}
+.taker-text{
+    min-height: 300px;
+
+}
+.ask{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    min-height: 200px;
+}
+
+.ask{
+    width: 900px;
+    margin:0 auto;
+
+}
+.ask-text h4{
+    display: inline-block;
+}
+/* last section */
+.list-conteiner{
+    width: 900px;
+    margin:0 auto;
+    display: flex;
+}
+.list{
+    display: flex;
+    width: calc(100%*5/1);
+    flex-direction: row;
+}
+li{
+    display: inline-block;
+}
+.list h4{
+    display: block;
+}

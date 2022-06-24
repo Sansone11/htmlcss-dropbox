@@ -339,13 +339,17 @@ hr{
     display: flex;
 }
 .list{
-    display: flex;
+    
     width: calc(100%*5/1);
-    flex-direction: row;
+    
 }
 li{
     display: inline-block;
 }
 .list h4{
     display: block;
+}
+ul{
+    display: flex;
+    flex-direction:column;
 }

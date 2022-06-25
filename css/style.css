@@ -18,23 +18,24 @@
     justify-content: space-between;
     padding-left: 15px;
     padding-right: 15px;
-    position: fixed;
     background-color: white;
     align-items: center;
-    padd
+    
 }
 
-.menu-list li{
+
+.menu-list ul,li{
+    display:inline;
+    
+
+}
+
+.logo{
     display: inline-block;
-    gap: 10px;
-    
-    
-    
+    margin-bottom: 15px;
 }
 
-.drop{
-    margin-right: 430px;
-    }
+
 
 .start{
     max-height: 35px;
@@ -140,18 +141,7 @@ h1{
     
    
 }
-/* 
-.title-card p{
-    display: inline-block;
-    margin-bottom: 40px;
-    padding-left: 20px;
-}
 
-/* .title-card h2{ 
-    padding-left: 20px;
-    margin-bottom: 40px;
-    text-align: left;
-}*/
 #radio{
     margin-left: 30px;
 }
@@ -283,7 +273,7 @@ hr{
     padding-bottom: 100px;
 }
 .user{
-    min-height: 250px;
+    min-height:50px;
 
 }
 /* section 5 */
@@ -302,8 +292,8 @@ hr{
 
 .son{
     min-height: 200px;
-    width: calc(100%*2/4);
-    
+    width: 50%;
+    aspect-ratio: 1;   
 
 }
 .taker{
@@ -333,23 +323,141 @@ hr{
     display: inline-block;
 }
 /* last section */
+
+.main-conteiner-foot{
+    width: 1200px;
+    margin:0 auto;
+    background-color: black;
+    color: white;
+}
 .list-conteiner{
     width: 900px;
     margin:0 auto;
     display: flex;
+    padding-top: 40px;
 }
 .list{
     
     width: calc(100%*5/1);
     
 }
-li{
+.list li{
     display: inline-block;
 }
 .list h4{
     display: block;
+    margin-bottom: 25px;
 }
 ul{
     display: flex;
     flex-direction:column;
+    gap: 15px;
+}
+
+.son{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.logobox{
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    color: white;
+    
+}
+
+.designit{
+    background-image: url(../img/designit.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.asu{
+    background-image: url(../img/arizona_state_university.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.uf{
+    background-image: url(../img/university_of_florida.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}   
+
+.topps{
+    background-image: url(../img/topps.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bike{
+    background-image: url(../img/world_bicycle_relief.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.reast{
+    background-image: url(../img/hearst_corp.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.lonley{
+    background-image: url(../img/lonely_planet.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+}
+
+.clear{
+    background-image: url(../img/clear_channel.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.des{
+    background-color: rgb(177, 245, 222);
+}
+
+.arizona{
+    background-color: rgba(246, 10, 69, 0.783);
+}
+
+.florida{
+    background-color: rgb(0, 166, 255);
+}
+
+.topp{
+    background-color: rgba(230, 105, 83, 0.882);
+}
+
+.world{
+    background-color: rgb(243, 54, 54);
+}
+
+.cel{
+    background-color: rgb(139, 184, 192);
+}
+
+.blu{
+    background-color: blue;
+}
+
+.yell{
+    background-color: rgba(250, 250, 111, 0.91);
 }

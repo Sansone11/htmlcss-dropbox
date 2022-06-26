@@ -2,21 +2,20 @@
 @import url(https: //fonts.googleapis.com/css2? family= Open+Sans:wght@400;700 & display=swap" rel="stylesheet>);
 
 
-*{
-    box-sizing: border-box;
+*{     box-sizing: border-box;
     margin:0;
-    padding:0;
-}
+    padding:0;}
+
 
 
 html{
     font-family: 'open-sans'sans-serif;
 }
 
-*{
+/* *{  
     border: 1px solid red;
     
-}
+}*/
 
 .nav-bar{
     height: 70px;
@@ -176,11 +175,13 @@ h1{
 .card.flex{
     flex-grow: 1;
     flex-basis: 0;
-    gap: 40px;
+    margin-left: 20px;
     margin-bottom: 40px;
     border: solid 1px lightgrey;
+
         
 }
+
 
 .card-special{
     display: flex;
@@ -190,6 +191,12 @@ h1{
 .card.flex li{
     display: inline-block;
     text-decoration: none;
+    
+}
+
+.card-style hr{
+    width: 70px;
+    color: lightgray;
     
 }
 
@@ -211,6 +218,16 @@ h1{
     min-height:35px;
     padding-top: 5px;
     margin-bottom: 30px;
+    border: solid 1px lightgray;
+}
+.user-bases{
+    text-align: center;
+    max-width:auto;
+    min-height:35px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    border: solid 1px lightgray;
+
 }
 
 .card-bases{
@@ -227,6 +244,7 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border-top-color:lightgray ;
 }
 
 .card-bases h2{
@@ -238,6 +256,11 @@ h1{
 .card-bases h4{
     margin-bottom: 40px;
     
+}
+
+.card-bases p{
+    display: block;
+    text-align: left;
 }
 
 
@@ -409,6 +432,35 @@ hr{
     aspect-ratio: 1;   
 
 }
+
+.company{
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.company hr{
+    color: lightgray;
+
+}
+
+.company p{
+    display: inline-block;
+    margin-left: auto;
+}
+
+.logo-company{ 
+    background-image: url(../img/designit.svg);
+    background-size: contain;
+    background-repeat:no-repeat;
+    height: 100px;
+    width: 200px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+}   
+
 .taker{
     display: flex;
     flex-direction: row;
@@ -451,6 +503,15 @@ hr{
     flex-direction: column;
     gap: 20px;
     margin-bottom: 70px;
+}
+
+.ask-text hr{
+    
+    min-width:900px;
+}
+
+.ask-text select{
+    border: none;
 }
 
 .ask-text h4{

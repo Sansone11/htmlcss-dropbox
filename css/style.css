@@ -1,8 +1,16 @@
 /* regole di reset */
+@import url(https: //fonts.googleapis.com/css2? family= Open+Sans:wght@400;700 & display=swap" rel="stylesheet>);
+
+
 *{
     box-sizing: border-box;
     margin:0;
     padding:0;
+}
+
+
+html{
+    font-family: 'open-sans'sans-serif;
 }
 
 *{
@@ -217,8 +225,9 @@ h1{
   .main-conteiner{
     width: 1200px;
     margin:0 auto;
+
     
-  }
+}
 .section-conteiner{
     width: 900px;
     margin:0 auto;
@@ -227,7 +236,7 @@ h1{
 .sidebox-two{
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    margin-bottom: 60px;
 }
 
 .size60{
@@ -237,6 +246,15 @@ h1{
     background-size:contain;
     background-repeat: no-repeat;
     
+    
+}
+
+.button-partner{
+    height: 30px;
+    width: 130px;
+    background-color: white;
+    border: solid 1px black;
+    margin-left: 20px;
 }
 .size40{
     flex-basis: 40%;
@@ -261,6 +279,71 @@ hr{
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.proposta{ 
+    background-image: url(../img/business-feature-coordinate-it.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    background-position: center;
+    
+    
+}
+
+.file{
+    background-image: url(../img/business-feature-send-files-it.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    background-position: center;
+}
+.folder{
+    background-image: url(../img/business-feature-switching-tools.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    background-position: center;
+}
+
+.partecipa{
+    background-image: url(../img/business-feature-integrations-it.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    background-position: center;
+}
+
+.multi{
+    background-image: url(../img/business-feature-multi-device.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    min-height: 200px;
+    background-position: center;
+}
+
+.cassa{
+    background-image: url(../img/business-feature-security.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 200px;
+    background-position: center;
+}
+
+.buisness h3{
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+.team h2{
+    margin-bottom: 70px;
+    
+}
+
+.section-conteiner h2{
+    margin-bottom: 40px;
+}
+
+
 .buisness{
     width: calc(100%*2/6);
 }
@@ -271,10 +354,6 @@ hr{
     align-self: center;
     padding-top: 100px;
     padding-bottom: 100px;
-}
-.user{
-    min-height:50px;
-
 }
 /* section 5 */
 .flexer{
@@ -302,26 +381,58 @@ hr{
     justify-content: center;
     align-self: center;
     background-color:rgba(157, 205, 214, 0.664) ;
+    min-height: 300px;
+    min-width: 300px;
+
 }
 .taker-text{
-    min-height: 300px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
 
+}
+
+.button-taker{
+    height: 30px;
+    width: 200px;
+    background-color: white;
 }
 .ask{
     display: flex;
     justify-content: center;
     align-self: center;
     min-height: 200px;
-}
-
-.ask{
     width: 900px;
     margin:0 auto;
-
 }
+
+
+.ask-text{
+    min-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .ask-text h4{
     display: inline-block;
 }
+
+.ask-text h3{
+    margin-bottom: 40px;
+    margin-left: 75px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
 /* last section */
 
 .main-conteiner-foot{

@@ -20,23 +20,18 @@ html {
     padding-left: 15px;
     padding-right: 15px;
     background-color: white;
-    align-items: center;
-    
+    align-items: center;  
 }
 
 
 .menu-list ul,li{
     display:inline;
-    
-
 }
 
 .logo{
     display: inline-block;
     margin-bottom: 15px;
 }
-
-
 
 .start{
     max-height: 40px;
@@ -45,6 +40,7 @@ html {
     color: white;
     border: none;    
 }
+
 /* hero */
 .content-hero{
     max-width: 1200px;
@@ -104,30 +100,26 @@ h1{
     color: white;
     text-align: center;
     display: inline-block;
-
 }
 
 .box-60{
     flex-basis: 60%;
-    min-height: 400px;
-   
+    min-height: 400px;   
 }
 
 .box-60 img{
     width: 70%;
     position: absolute;
     bottom: -50px;
-    top: 0;
-    
-    
+    top: 0;    
 }
 
 .box-40 p{
     display: inline-block;
     justify-content: left;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;  
 }
+
 .box-40 button{
     margin-bottom: 20px;
 }
@@ -187,8 +179,7 @@ h1{
     width: 70px;
     color: lightgray;
     margin-bottom: 20px;
-    margin-top: 20px;
-        
+    margin-top: 20px;      
 }
 
 .title-card p{
@@ -204,7 +195,8 @@ h1{
     display: inline-block;
     margin-bottom: 20px;
     margin-top: 20px;
-    margin:0 auto;    
+    margin:0 auto; 
+    border: none;   
 }
 
 .user{
@@ -221,8 +213,7 @@ h1{
     min-height:35px;
     padding-top: 5px;
     margin-bottom: 30px;
-    border: solid 1px lightgray;
-
+    border: solid 1px lightgray;  
 }
 
 .card-bases{
@@ -230,8 +221,7 @@ h1{
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 70px;
-    border: solid 1px lightgrey;
-    
+    border: solid 1px lightgrey;    
 }
 
 .base-title{
@@ -251,24 +241,22 @@ h1{
     margin-left: 20px; 
 }
 
-.card-bases p{
-    display: block;
-    text-align: left;
-}
-
-.button-base{
+.base-title
+ button{
     height: 30px;
-    min-width: 160px;
+    width: 220px;
     background-color: rgba(63, 63, 165, 0.664);
     color: white;
-    text-align: center;   
+    text-align: center; 
+    display: inline-block;
+    border: none;  
 }
 
 .paragrafo{ 
-    max-width: 515px;
+    max-width: 700px;
 }
 
-  /*section 3 box partner  */
+  /*section 2 box partner  */
 .main-conteiner{
     width: 1200px;
     margin:0 auto;   
@@ -322,12 +310,13 @@ hr{
     color: lightgrey;
 }
 
-/* section 4 buisness card */
+/* section 3 buisness card */
 .box-card{
     min-height: 300px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;   
+    flex-wrap: wrap; 
+    margin-bottom: 70px;  
 }
 
 .proposta{ 
@@ -336,7 +325,6 @@ hr{
     background-repeat: no-repeat;
     min-height: 200px;
     background-position: center;
-
 }
 
 .file{
@@ -400,6 +388,7 @@ hr{
 .buisness{
     width: calc(100%*2/6);
 }
+/* sezione 4 user */
 
 .team-user{
     min-height: 400px;
@@ -410,7 +399,11 @@ hr{
     padding-bottom: 100px;
 }
 
-/* section 5 carosello*/
+.team h2{
+    max-width: 350px;
+}
+
+/* section 5 carosello */
 
 .flexer{
     display: flex;
@@ -576,7 +569,7 @@ hr{
     background-color: rgba(250, 250, 111, 0.91);
 }
 
-/* section 6 offerte */
+/* sezione 6 porta Dropbox */
 
 .taker{
     display: flex;
@@ -595,13 +588,17 @@ hr{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 100px;
+    /* gap: 100px; */
 }
 
 .button-taker{
     height: 30px;
     width: 200px;
     background-color: white;
+}
+
+.taker-text h3{
+    max-width: 250px;
 }
 
 /* sezione 7 domande frequenti */
@@ -626,6 +623,7 @@ hr{
 .ask-text hr{
     margin: 0 auto;
     min-width:900px;
+    color: lightgray;
 }
 
 .ask-text select{
@@ -647,9 +645,7 @@ hr{
     justify-content: space-around;
 }
 
-
 /* last section footer */
-
 
 .main-conteiner-foot{
     width: 1200px;

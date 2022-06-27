@@ -43,8 +43,7 @@ html {
     max-width: 100px;
     background-color: rgba(63, 63, 165, 0.664);
     color: white;
-    border: none;
-    
+    border: none;    
 }
 /* hero */
 .content-hero{
@@ -52,6 +51,7 @@ html {
     margin:0 auto;
     background-color: rgb(143, 210, 236);
     max-height: 700px;
+    /* position: relative; */
 }
 
 .titolo{
@@ -59,9 +59,9 @@ html {
     margin:0 auto;
     padding-top: 70px;
     margin-bottom: 70px;
-    
-    
+    max-height: 600px;   
 }
+
 h1{
     font-size: 70px;
     text-align: left;
@@ -80,18 +80,20 @@ h1{
 .box-40{
     flex-basis: 40%;
     min-height: 400px;
-    text-align: left;   
+    text-align: left; 
+    position: relative;  
 }
 
 .box-40 button{
     display: block;
     margin-left: 20px;
+
 }
 
-.fa-arrow-down{
-    /* position: absolute; */
-    bottom: 10px;
-    left: 13px;
+.fa-arrow-down{       
+    position: absolute;
+    bottom: 110px;
+    left:30px;
     font-size: 40px;
 }
 
@@ -111,15 +113,12 @@ h1{
    
 }
 
-.img-out{
+.box-60 img{
+    width: 70%;
     position: absolute;
-    z-index: 1; 
-     margin-left: 0; 
-    background-image: url(../img/jumbo.png);
-    background-size:contain;
-    background-repeat: no-repeat;
-    min-height: 60%;
-    width: 70%; 
+    bottom: -50px;
+    top: 0;
+    
     
 }
 
@@ -147,13 +146,9 @@ h1{
     margin:0 auto;   
 }
 
-.card-style p{
-    display: block;
-}
-
 .title-card h2{
     margin-bottom: 40px;
-    padding-left: 20px;
+    margin-left: 20px;
 }
 
 .card-style h3{
@@ -164,10 +159,12 @@ h1{
     flex-grow: 1;
     flex-basis: 0;
     margin-left: 20px;
-    margin-bottom: 40px;
     border: solid 1px lightgrey;
-    padding-left: 20px;
-    padding-right: 20px;       
+    margin-bottom: 30px;       
+}
+
+.card-style{
+    padding: 20px;
 }
 
 .fa-check{
@@ -185,9 +182,13 @@ h1{
 }
 
 .card-style hr{
+    display: inline-block;
+    text-align: left;
     width: 70px;
     color: lightgray;
-    margin-left: auto;    
+    margin-bottom: 20px;
+    margin-top: 20px;
+        
 }
 
 .title-card p{
@@ -238,6 +239,7 @@ h1{
     flex-direction: row;
     justify-content: space-between;
     border-top-color:lightgray ;
+    padding: 20px;
 }
 
 .card-bases h2{
@@ -245,7 +247,8 @@ h1{
 }
 
 .card-bases h4{
-    margin-bottom: 40px;  
+    margin-bottom: 40px; 
+    margin-left: 20px; 
 }
 
 .card-bases p{

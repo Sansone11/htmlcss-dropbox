@@ -39,10 +39,11 @@ html {
 
 
 .start{
-    max-height: 35px;
-    max-width: 80px;
+    max-height: 40px;
+    max-width: 100px;
     background-color: rgba(63, 63, 165, 0.664);
     color: white;
+    border: none;
     
 }
 /* hero */
@@ -50,14 +51,13 @@ html {
     max-width: 1200px;
     margin:0 auto;
     background-color: rgb(143, 210, 236);
-    max-height: 600px;
+    max-height: 700px;
 }
 
 .titolo{
     max-width: 900px;
     margin:0 auto;
     padding-top: 70px;
-    position: relative;
     margin-bottom: 70px;
     
     
@@ -66,8 +66,7 @@ h1{
     font-size: 70px;
     text-align: left;
     display: inline-block;
-    margin-bottom: 70px;
-    
+    margin-bottom: 70px;   
 }
 
 /* box-hero */
@@ -75,23 +74,23 @@ h1{
 .sidebox{
     display: flex;
     flex-direction: row;
-    
+    position: relative;   
 }
+
 .box-40{
     flex-basis: 40%;
-    max-height: 800px;
-    text-align: left;
-    position: relative;
-    
+    min-height: 400px;
+    text-align: left;   
 }
+
 .box-40 button{
     display: block;
     margin-left: 20px;
 }
 
 .fa-arrow-down{
-    position: absolute;
-    bottom: -50px;
+    /* position: absolute; */
+    bottom: 10px;
     left: 13px;
     font-size: 40px;
 }
@@ -108,23 +107,20 @@ h1{
 
 .box-60{
     flex-basis: 60%;
-    max-height:800px;
+    min-height: 400px;
    
 }
 
 .img-out{
     position: absolute;
     z-index: 1; 
-    margin-left: 0;
+     margin-left: 0; 
     background-image: url(../img/jumbo.png);
     background-size:contain;
     background-repeat: no-repeat;
     min-height: 60%;
-    width: 100%; 
+    width: 70%; 
     
-    
-    
-
 }
 
 .box-40 p{
@@ -190,7 +186,8 @@ h1{
 
 .card-style hr{
     width: 70px;
-    color: lightgray;    
+    color: lightgray;
+    margin-left: auto;    
 }
 
 .title-card p{

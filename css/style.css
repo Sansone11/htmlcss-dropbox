@@ -2,7 +2,7 @@
 @import url(<link href="https: //fonts.googleapis.com/css2? family= Open+Sans:wght@400;700 & display=swap" rel="stylesheet">);
 
 
-*{     box-sizing: border-box;
+*{  box-sizing: border-box;
     margin:0;
     padding:0;} 
 
@@ -12,10 +12,11 @@ html {
     font-family: 'open-sans',sans-serif;
 }
 
- /* *{    
+ *{    
     border: 1px solid red;
     
-} */
+} 
+/* section 1 nav bar */
 
 .nav-bar{
     height: 70px;
@@ -49,6 +50,7 @@ html {
     max-width: 80px;
     background-color: rgba(63, 63, 165, 0.664);
     color: white;
+    
 }
 /* hero */
 .content-hero{
@@ -75,6 +77,8 @@ h1{
     
 }
 
+/* box-hero */
+
 .sidebox{
     display: flex;
     flex-direction: row;
@@ -84,13 +88,22 @@ h1{
     flex-basis: 40%;
     max-height: 800px;
     text-align: left;
+    position: relative;
     
 }
 .box-40 button{
-    align-self: flex-end;    
+    display: block;
+    margin-left: 20px;
 }
 
-.button{
+.fa-arrow-down{
+    position: absolute;
+    bottom: -50px;
+    left: 13px;
+    font-size: 40px;
+}
+
+.button-hero{
     height: 35px;
     width: 160px;
     background-color:rgba(63, 63, 165, 0.664);
@@ -130,12 +143,8 @@ h1{
 .box-40 button{
     margin-bottom: 20px;
 }
-.arrow{
-    display:block;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-/* main */
+
+/* inizio main (card)*/
 
 .main-card{
     max-width: 900px;
@@ -146,9 +155,7 @@ h1{
 }
 
 .card-container{
-    margin:0 auto;
-    
-   
+    margin:0 auto;   
 }
 
 .card-style p{
@@ -161,16 +168,8 @@ h1{
 }
 
 .card-style h3{
-    margin-bottom: 20px;
-
-    
+    margin-bottom: 20px;    
 }
-
-.card-style{
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
 
 .card.flex{
     flex-grow: 1;
@@ -178,10 +177,13 @@ h1{
     margin-left: 20px;
     margin-bottom: 40px;
     border: solid 1px lightgrey;
-
-        
+    padding-left: 20px;
+    padding-right: 20px;       
 }
 
+.fa-check{
+    color: rgb(120, 120, 238);
+}
 
 .card-special{
     display: flex;
@@ -190,29 +192,30 @@ h1{
 
 .card.flex li{
     display: inline-block;
-    text-decoration: none;
-    
+    text-decoration: none;   
 }
 
 .card-style hr{
     width: 70px;
-    color: lightgray;
-    
+    color: lightgray;    
 }
 
+.title-card p{
+    margin-bottom: 40px;
+}
 
 .button{
     height: 30px;
-    min-width: 160px;
+    width: 100%;
     background-color: rgba(63, 63, 165, 0.664);
     color: white;
     text-align: center;
     display: inline-block;
     margin-bottom: 20px;
     margin-top: 20px;
-    margin:0 auto;
-    
+    margin:0 auto;    
 }
+
 .user{
     text-align: center;
     min-height:35px;
@@ -220,6 +223,7 @@ h1{
     margin-bottom: 30px;
     border: solid 1px lightgray;
 }
+
 .user-bases{
     text-align: center;
     max-width:auto;
@@ -231,7 +235,6 @@ h1{
 }
 
 .card-bases{
-
     flex-basis:calc(100%/1);
     padding-left: 20px;
     padding-right: 20px;
@@ -248,14 +251,11 @@ h1{
 }
 
 .card-bases h2{
-
-    padding-bottom: 40px;
-
-    
+    padding-bottom: 40px;  
 }
+
 .card-bases h4{
-    margin-bottom: 40px;
-    
+    margin-bottom: 40px;  
 }
 
 .card-bases p{
@@ -263,27 +263,24 @@ h1{
     text-align: left;
 }
 
-
 .button-base{
     height: 30px;
     min-width: 160px;
     background-color: rgba(63, 63, 165, 0.664);
     color: white;
-    text-align: center;
-
-    
+    text-align: center;   
 }
-.paragrafo{
+
+.paragrafo{ 
     max-width: 515px;
 }
 
-  /*section 3  */
-  .main-conteiner{
+  /*section 3 box partner  */
+.main-conteiner{
     width: 1200px;
-    margin:0 auto;
-
-    
+    margin:0 auto;   
 }
+
 .section-conteiner{
     width: 900px;
     margin:0 auto;
@@ -293,6 +290,7 @@ h1{
     display: flex;
     flex-direction: row;
     margin-bottom: 70px;
+    column-gap: 20px;
 }
 
 .size60{
@@ -311,29 +309,32 @@ h1{
     border: solid 1px black;
     margin-left: 20px;
 }
+
 .size40{
     flex-basis: 40%;
     min-height: 300px;
     padding-top: 50px;
     text-align: left;
 }
+
 .size40>h3,p{
     margin-bottom: 30px;
     display: inline-block;
     padding-left: 20px;
 }
+
 hr{
     display: inline-block;
     max-width: 200px;
     color: lightgrey;
 }
-/* section 4 */
+
+/* section 4 buisness card */
 .box-card{
     min-height: 300px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;   
 }
 
 .proposta{ 
@@ -342,8 +343,7 @@ hr{
     background-repeat: no-repeat;
     min-height: 200px;
     background-position: center;
-    
-    
+
 }
 
 .file{
@@ -353,6 +353,7 @@ hr{
     min-height: 200px;
     background-position: center;
 }
+
 .folder{
     background-image: url(../img/business-feature-switching-tools.png);
     background-size:contain;
@@ -390,9 +391,9 @@ hr{
     margin-bottom: 40px;
     padding-left: 20px;
 }
+
 .team h2{
     margin-bottom: 70px;
-    
 }
 
 .section-conteiner h2{
@@ -401,14 +402,12 @@ hr{
 
 .section-conteiner{
     margin-bottom: 70px;
-
 }
-
 
 .buisness{
     width: calc(100%*2/6);
-
 }
+
 .team-user{
     min-height: 400px;
     display: flex;
@@ -417,7 +416,9 @@ hr{
     padding-top: 100px;
     padding-bottom: 100px;
 }
-/* section 5 */
+
+/* section 5 carosello*/
+
 .flexer{
     display: flex;
     flex-direction: row;
@@ -437,12 +438,9 @@ hr{
     aspect-ratio: 1; 
     display: flex;
     justify-content: center;
- 
-
 }
 
-.son:hover{
-    
+.son:hover{  
     border: solid 20px;
     border-color:rgba(157, 205, 214, 0.664)
 }
@@ -461,7 +459,6 @@ hr{
     color: lightgray;
     max-width: 150px;
     padding-left: 20px;
-
 }
 
 .company p{
@@ -477,86 +474,13 @@ hr{
     width: 200px;
     margin-bottom: 40px;
     margin-left: 15px;
-}   
-
-.taker{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-self: center;
-    background-color:rgba(157, 205, 214, 0.664) ;
-    min-height: 300px;
-    min-width: 300px;
-    margin-bottom: 70px;
-
-}
-.taker-text{
-    min-height: 200px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 100px;
-
-}
-
-.button-taker{
-    height: 30px;
-    width: 200px;
-    background-color: white;
-}
-.ask{
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    min-height: 200px;
-    width: 900px;
-    margin:0 auto;
-}
-
-
-.ask-text{
-    min-width: 900px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    margin-bottom: 70px;
-}
-
-.ask-text hr{
-    margin: 0 auto;
-    min-width:900px;
-}
-
-.ask-text select{
-    border: none;
-}
-
-.ask-text h4{
-    display: inline-block;
-}
-
-.ask-text h3{
-    margin-bottom: 40px;
-    margin-left: 75px;
-}
-
-.row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-
-/* last section */
-
+}  
 
 .logobox{
     width: 100px;
     height: 100px;
     align-self: center;
-    color: white;
-    
+    color: white;  
 }
 
 .logo-company{
@@ -609,7 +533,6 @@ hr{
     background-repeat: no-repeat;
     background-position: center;
     filter: invert(1);
-
 }
 
 .lonley{
@@ -618,8 +541,6 @@ hr{
     background-repeat: no-repeat;
     background-position: center;
     filter: invert(1);
-
-
 }
 
 .clear{
@@ -628,7 +549,6 @@ hr{
     background-repeat: no-repeat;
     background-position: center;
     filter: invert(1);
-
 }
 
 .des{
@@ -663,7 +583,80 @@ hr{
     background-color: rgba(250, 250, 111, 0.91);
 }
 
-/* footer */
+/* section 6 offerte */
+
+.taker{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    background-color:rgba(157, 205, 214, 0.664) ;
+    min-height: 300px;
+    min-width: 300px;
+    margin-bottom: 70px;
+}
+
+.taker-text{
+    min-height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.button-taker{
+    height: 30px;
+    width: 200px;
+    background-color: white;
+}
+
+/* sezione 7 domande frequenti */
+
+.ask{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    min-height: 200px;
+    width: 900px;
+    margin:0 auto;
+}
+
+.ask-text{
+    min-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 70px;
+}
+
+.ask-text hr{
+    margin: 0 auto;
+    min-width:900px;
+}
+
+.ask-text select{
+    border: none;
+}
+
+.ask-text h4{
+    display: inline-block;
+}
+
+.ask-text h3{
+    margin-bottom: 40px;
+    margin-left: 75px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+/* last section footer */
+
 
 .main-conteiner-foot{
     width: 1200px;
@@ -671,34 +664,30 @@ hr{
     background-color: black;
     color: white;
 }
+
 .list-conteiner{
     width: 900px;
     margin:0 auto;
     display: flex;
     justify-content: space-between;
 
-    
-}
-.list{
-    
-    margin-bottom: 80px;
-    margin-top: 60px;
-    position: relative;
-    
 }
 
-/* .list i,hr{ 
-    position: absolute;
-    bottom: 20px;
-}*/
+.list{   
+    margin-bottom: 80px;
+    margin-top: 60px;
+    position: relative;   
+}
 
 .list li{
     display: inline-block;
 }
+
 .list h4{
     display: block;
     margin-bottom: 25px;
 }
+
 ul{
     display: flex;
     flex-direction:column;
